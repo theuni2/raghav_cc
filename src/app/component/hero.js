@@ -49,6 +49,7 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
+            <a href='/journal'>
             <button className="inline-flex items-center justify-center text-[#0B1C2D] bg-green-500 hover:bg-green-600 px-8 py-3 rounded-full text-lg font-semibold transition">
               Read Carbon Count Paper
             </button>
