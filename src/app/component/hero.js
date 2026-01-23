@@ -53,6 +53,7 @@ export default function Hero() {
             <button className="inline-flex items-center justify-center text-[#0B1C2D] bg-green-500 hover:bg-green-600 px-8 py-3 rounded-full text-lg font-semibold transition">
               Read Carbon Count Paper
             </button>
+            </a>
 {/* 
             <button className="inline-flex items-center justify-center border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-[#0B1C2D] px-8 py-3 rounded-full text-lg transition">
               Take the First Step
