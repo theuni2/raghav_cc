@@ -186,7 +186,12 @@ export default function ImpactSection() {
                   href="#smiles-across-miles"
                   className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-[#0B1C2D] font-bold text-xs px-5 py-2.5 rounded-full transition-all shadow-lg shadow-green-500/20 btn-shimmer hover:scale-105 active:scale-95"
                 >
-                  <span>🌱</span> Explore Smiles Across Miles
+                  <img
+                    src="/img/logos/smiles_across_miles_logo.jpg"
+                    alt="Smiles Across Miles Logo"
+                    className="w-5 h-5 rounded-full object-cover border border-[#0B1C2D]/30"
+                  />
+                  <span>Explore Smiles Across Miles</span>
                 </a>
               </div>
             </div>

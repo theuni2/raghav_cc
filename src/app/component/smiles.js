@@ -167,9 +167,25 @@ export default function SmilesAcrossMiles() {
             <span>✨</span> Student-Driven Circular Economy & Sustainability
           </div>
 
-          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-6 text-white">
+          {/* Official Smiles Across Miles Emblem */}
+          <div className="mb-6 flex justify-center">
+            <div className="relative group">
+              <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-full p-1 bg-gradient-to-tr from-cyan-400 via-green-400 to-cyan-300 shadow-[0_0_35px_rgba(34,211,238,0.4)] hover:shadow-[0_0_50px_rgba(34,211,238,0.6)] transition-all duration-500 hover:scale-105">
+                <img
+                  src="/img/logos/smiles_across_miles_logo.jpg"
+                  alt="Smiles Across Miles Logo - Spreading Smiles, One Mile at a Time"
+                  className="w-full h-full object-cover rounded-full bg-white shadow-inner"
+                />
+              </div>
+            </div>
+          </div>
+
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-3 text-white">
             Smiles Across <span className="text-cyan-400 animate-cyan-glow">Miles</span>
           </h2>
+          <p className="text-xs sm:text-sm font-mono uppercase tracking-widest text-green-400 font-bold mb-6">
+            “Spreading Smiles, One Mile at a Time”
+          </p>
 
           <p className="text-lg sm:text-xl text-slate-200 leading-relaxed font-normal">
             Founded and led a student-driven sustainability initiative, partnering with organizations
@@ -183,7 +199,12 @@ export default function SmilesAcrossMiles() {
           </p>
 
           {/* Founder Badge */}
-          <div className="mt-6 inline-flex flex-wrap items-center justify-center gap-3 bg-white/5 border border-white/10 rounded-full px-6 py-2 text-sm text-gray-300">
+          <div className="mt-6 inline-flex flex-wrap items-center justify-center gap-3 bg-white/5 border border-white/10 rounded-full px-6 py-2.5 text-sm text-gray-300 backdrop-blur-sm">
+            <img
+              src="/img/logos/smiles_across_miles_logo.jpg"
+              alt="Smiles Across Miles Icon"
+              className="w-6 h-6 rounded-full object-cover border border-cyan-400/40"
+            />
             <span className="text-green-400 font-semibold">Raghav Agarwal</span>
             <span className="text-gray-500">•</span>
             <span>President & Founder, Smiles Across Miles</span>
