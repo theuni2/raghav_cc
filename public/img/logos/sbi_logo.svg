@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 50" fill="none">
+  <!-- SBI Emblem -->
+  <circle cx="25" cy="25" r="22" fill="#0083CA" />
+  <!-- Keyhole Slot -->
+  <circle cx="25" cy="21" r="7" fill="#FFFFFF" />
+  <rect x="23.2" y="21" width="3.6" height="17" fill="#FFFFFF" />
+  <!-- SBI Text -->
+  <text x="56" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="900" fill="#0083CA" letter-spacing="1">SBI</text>
+  <text x="56" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="7" font-weight="700" fill="#1C355E" letter-spacing="0.5">STATE BANK OF INDIA</text>
+</svg>

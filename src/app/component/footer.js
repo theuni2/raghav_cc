@@ -26,11 +26,11 @@ export default function Footer() {
           <div>
             <h3 className="text-cyan-400 font-semibold mb-4">Explore</h3>
             <ul className="space-y-2 text-sm text-gray-300">
-              <li className="hover:text-white cursor-pointer">Home</li>
-              <li className="hover:text-white cursor-pointer">Journal</li>
-              <li className="hover:text-white cursor-pointer">Interviews</li>
-              {/* <li className="hover:text-white cursor-pointer">Services / Products</li>
-              <li className="hover:text-white cursor-pointer">About Us</li> */}
+              <li><a href="/" className="hover:text-white transition cursor-pointer">Home</a></li>
+              <li><a href="/#book" className="hover:text-white transition cursor-pointer">Book: Carbon Keeps the Score</a></li>
+              <li><a href="/#leadership" className="hover:text-white transition cursor-pointer">Leadership</a></li>
+              <li><a href="/journal" className="hover:text-white transition cursor-pointer">Journal</a></li>
+              <li><a href="/interview" className="hover:text-white transition cursor-pointer">Interviews</a></li>
             </ul>
           </div>
 
@@ -38,22 +38,21 @@ export default function Footer() {
           <div>
             <h3 className="text-cyan-400 font-semibold mb-4">Initiatives</h3>
             <ul className="space-y-2 text-sm text-gray-300">
-              <li className="hover:text-white cursor-pointer">Carbon Count Interviews</li>
-              <li className="hover:text-white cursor-pointer">Smiles Across Miles</li>
-              <li className="hover:text-white cursor-pointer">Community Drives</li>
-              <li className="hover:text-white cursor-pointer">Climate Awareness</li>
+              <li><a href="/#leadership" className="hover:text-white transition cursor-pointer">Student Council & ICT</a></li>
+              <li><a href="/#smiles-across-miles" className="hover:text-white transition cursor-pointer">Smiles Across Miles</a></li>
+              <li><a href="/#community" className="hover:text-white transition cursor-pointer">Community In Action</a></li>
+              <li><a href="/#media" className="hover:text-white transition cursor-pointer">Media Coverage</a></li>
+              <li><a href="/interview" className="hover:text-white transition cursor-pointer">Carbon Count Interviews</a></li>
+              <li><a href="/journal" className="hover:text-white transition cursor-pointer">Climate & Market Research</a></li>
             </ul>
           </div>
 
           {/* Call to Action */}
           <div className="md:w-1/4">
             <h3 className="text-cyan-400 font-semibold mb-4">Get Involved</h3>
-            <p className="text-gray-300 text-sm mb-4">
-              Join us in creating a more compassionate and sustainable future.
+            <p className="text-gray-300 text-sm leading-relaxed">
+              Join us in creating a more compassionate and sustainable future through youth leadership, environmental research, and grassroots action.
             </p>
-            <button className="bg-green-500 hover:bg-green-600 text-[#0B1C2D] font-semibold px-6 py-2 rounded-full transition">
-              Contact Us
-            </button>
           </div>
         </div>
 

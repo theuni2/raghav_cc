@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 50" fill="none">
+  <!-- Twirl Red Ribbon Loop -->
+  <path d="M14 36 C8 32, 8 20, 16 16 C22 13, 29 18, 25 25 C23 29, 18 32, 23 37 C27 41, 35 37, 34 28 C33 22, 27 12, 38 14 C40 14.5, 42 16, 41 18" stroke="#E52D27" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <circle cx="25" cy="25" r="2.5" fill="#E52D27" />
+  <!-- Twirl Store Text -->
+  <text x="52" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" fill="#E52D27">twirl<tspan fill="#111827">.store</tspan></text>
+  <text x="52" y="39" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="6.5" font-weight="700" fill="#6B7280" letter-spacing="0.8">UPSCALE FASHION PVT LTD</text>
+</svg>

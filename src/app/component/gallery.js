@@ -83,11 +83,11 @@ export default function Gallery() {
       <div className="container mx-auto px-6 py-24">
 
         {/* Section Header */}
-        <div className="flex flex-col lg:flex-row items-start lg:items-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white lg:w-1/3 mb-6 lg:mb-0">
-            Life at <span className="text-cyan-400">Carbon Count</span>
+        <div className="flex flex-col lg:flex-row items-start lg:items-center mb-16 animate-fade-in-up">
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black text-white lg:w-2/5 mb-6 lg:mb-0 tracking-tight leading-tight">
+            Life at <span className="text-cyan-400 animate-cyan-glow">Carbon Count</span>
           </h2>
-          <p className="lg:pl-8 lg:w-2/3 text-gray-300 text-lg">
+          <p className="lg:pl-8 lg:w-3/5 text-slate-200 text-lg sm:text-xl leading-relaxed">
             From climate conversations to community outreach, these moments capture
             how action, empathy, and sustainability come together. Every image reflects
             our belief that change is built through people and purpose.
@@ -99,24 +99,24 @@ export default function Gallery() {
 
           {/* Left Column */}
           <div className="flex flex-wrap w-full lg:w-1/2">
-            <div className="p-2 w-1/2">
+            <div className="p-2 w-1/2 reveal-scale hover-lift stagger-1">
               <img
                 alt="Carbon Count community action"
-                className="w-full h-full object-cover rounded-2xl hover:scale-105 transition duration-300"
+                className="w-full h-full object-cover rounded-2xl transition duration-500 hover:scale-[1.03]"
                 src="/img/gallery/img1.png"
               />
             </div>
-            <div className="p-2 w-1/2">
+            <div className="p-2 w-1/2 reveal-scale hover-lift stagger-2">
               <img
                 alt="Environmental awareness activity"
-                className="w-full h-full object-cover rounded-2xl hover:scale-105 transition duration-300"
+                className="w-full h-full object-cover rounded-2xl transition duration-500 hover:scale-[1.03]"
                 src="/img/gallery/img2.png"
               />
             </div>
-            <div className="p-2 w-full">
+            <div className="p-2 w-full reveal-scale hover-lift stagger-3">
               <img
                 alt="Smiles Across Miles donation drive"
-                className="w-full h-full object-cover rounded-2xl hover:scale-105 transition duration-300"
+                className="w-full h-full object-cover rounded-2xl transition duration-500 hover:scale-[1.03]"
                 src="/img/gallery/img3.png"
               />
             </div>
@@ -124,24 +124,24 @@ export default function Gallery() {
 
           {/* Right Column */}
           <div className="flex flex-wrap w-full lg:w-1/2">
-            <div className="p-2 w-full">
+            <div className="p-2 w-full reveal-scale hover-lift stagger-4">
               <img
                 alt="Youth-led sustainability initiative"
-                className="w-full h-full object-cover rounded-2xl hover:scale-105 transition duration-300"
+                className="w-full h-full object-cover rounded-2xl transition duration-500 hover:scale-[1.03]"
                 src="/img/gallery/img4.jpg"
               />
             </div>
-            <div className="p-2 w-1/2">
+            <div className="p-2 w-1/2 reveal-scale hover-lift stagger-5">
               <img
                 alt="Climate action workshop"
-                className="w-full h-full object-cover rounded-2xl hover:scale-105 transition duration-300"
+                className="w-full h-full object-cover rounded-2xl transition duration-500 hover:scale-[1.03]"
                 src="/img/gallery/img5.jpg"
               />
             </div>
-            <div className="p-2 w-1/2">
+            <div className="p-2 w-1/2 reveal-scale hover-lift stagger-6">
               <img
                 alt="Community engagement"
-                className="w-full h-full object-cover rounded-2xl hover:scale-105 transition duration-300"
+                className="w-full h-full object-cover rounded-2xl transition duration-500 hover:scale-[1.03]"
                 src="/img/gallery/img6.jpg"
               />
             </div>

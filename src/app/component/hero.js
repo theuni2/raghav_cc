@@ -31,18 +31,31 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="bg-[#0B1C2D] text-white body-font">
-      <div className="container mx-auto flex px-6 py-28 md:flex-row flex-col items-center">
+    <section className="relative text-white body-font overflow-hidden">
+      {/* Background Image with Dark Overlay */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="/img/hero_bg.jpg"
+          alt="Carbon Count Background"
+          className="w-full h-full object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-[#0B1C2D]/90 backdrop-blur-[2px]"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0B1C2D] via-[#0B1C2D]/95 to-[#0B1C2D]/80"></div>
+      </div>
+
+      <div className="container relative z-10 mx-auto flex px-6 py-28 md:flex-row flex-col items-center">
         
         {/* Left Content */}
-        <div className="lg:flex-grow md:w-1/2 lg:pr-20 md:pr-12 flex flex-col md:items-start md:text-left items-center text-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-20 md:pr-12 flex flex-col md:items-start md:text-left items-center text-center animate-fade-in-up">
           
-          <h1 className="title-font sm:text-5xl text-4xl mb-6 font-bold leading-tight">
+          <h1 className="title-font text-4xl sm:text-5xl lg:text-6xl mb-6 font-extrabold leading-tight tracking-tight text-white drop-shadow-md">
             Small Choices. <br />
-            <span className="text-cyan-400">Big Climate Impact.</span>
+            <span className="text-cyan-400 animate-cyan-glow">
+              Big Climate Impact.
+            </span>
           </h1>
 
-          <p className="mb-10 text-gray-300 text-lg max-w-xl">
+          <p className="mb-10 text-slate-200 text-lg sm:text-xl max-w-xl leading-relaxed">
             Carbon Count is a community-driven platform inspiring sustainable
             lifestyles through education, interviews, and hands-on climate action.
             Because real change grows when people act together.
@@ -50,21 +63,22 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4">
             <a href='/journal'>
-            <button className="inline-flex items-center justify-center text-[#0B1C2D] bg-green-500 hover:bg-green-600 px-8 py-3 rounded-full text-lg font-semibold transition">
-              Read Carbon Count Paper
-            </button>
+              <button className="inline-flex items-center justify-center text-[#0B1C2D] bg-green-500 hover:bg-green-400 px-8 py-3.5 rounded-full text-lg font-bold transition shadow-lg shadow-green-500/25 btn-shimmer hover:scale-105 active:scale-95 cursor-pointer">
+                Read Research Paper
+              </button>
             </a>
-{/* 
-            <button className="inline-flex items-center justify-center border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-[#0B1C2D] px-8 py-3 rounded-full text-lg transition">
-              Take the First Step
-            </button> */}
+            <a href='/#smiles-across-miles'>
+              <button className="inline-flex items-center justify-center border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-[#0B1C2D] px-8 py-3.5 rounded-full text-lg font-semibold transition hover:scale-105 active:scale-95 cursor-pointer">
+                Smiles Across Miles
+              </button>
+            </a>
           </div>
         </div>
 
         {/* Right Image */}
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mt-12 md:mt-0">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mt-12 md:mt-0 reveal-scale">
           <img
-            className="object-cover object-center rounded-2xl shadow-xl"
+            className="object-cover object-center rounded-2xl shadow-2xl border border-white/10 hover-lift transition-all duration-500 hover:border-cyan-400/50"
             alt="Carbon Count sustainability"
             src="/img/hero.jpg"
           />
